@@ -1,0 +1,11 @@
+For this Template to work for you, you need to have Latex installed on you system. For this ru the following commands in the terminal:
+   $ sudo apt-get install texlive
+   $ sudo apt-get install texlive-full
+
+After Installing latex, place the report folder in your home directory and then make your desired changes in finalreport.tex file and all he other fies which are linked to it. While making changes you need to keep in mind that YOU NEED TO ONLY WORRY ABOUT CONTENT, REST OF THE THINGS WILL BE MANAGED BY LATEX. 
+
+After making all these changes, run the following commands :
+   $cd report
+   $pdflatex finalreport.tex
+
+And then you are done.  pdf file named finalreport.pdf would have generated and thats your final report. :-)
