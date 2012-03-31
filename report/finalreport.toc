@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction To Organisation}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}TESTING AND CONSULTANCY CELL}{6}{subsection.1.1}
+\contentsline {section}{\numberline {2}Introduction}{11}{section.2}
+\contentsline {section}{\numberline {3}Office Automation}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Introduction to Office Automation}{12}{subsection.3.1}
+\contentsline {section}{\numberline {4}Python}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Introduction to Python}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Installation of Python}{18}{subsection.4.2}
+\contentsline {section}{\numberline {5}Django}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Introduction to Django}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Installation of Django}{21}{subsection.5.2}
+\contentsline {section}{\numberline {6}Lamp server}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Introduction to Lamp Server}{23}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Installation of Lamp Server}{24}{subsection.6.2}
+\contentsline {section}{\numberline {7}Latex}{27}{section.7}
+\contentsline {subsection}{\numberline {7.1}Introduction to \LaTeX }{27}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Typesetting}{29}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Installing \LaTeX {} on System}{30}{subsection.7.3}

@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage[screen,nopanel]{pdfscreen}
+\begin{screen}
+\usepackage{lastpage}
+
+\renewcommand{\abstractname}{\textbf{\Large Abstract}}
+
+%\usepackage{fancyhdr}
+%\lhead{\large\bfseries Office Automation}
+\usepackage[left=3cm, right=2cm, top=3.5cm, bottom=3.5cm]{geometry}
+\pagestyle{fancy}
+\end{screen}
+\margins{.5cm}{.5cm}{.5cm}{.5cm}
+\begin{screen}
+
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\end{screen}
+\screensize{8cm}{9cm}
+%\overlay{overlay8.pdf}
+\usepackage{graphicx}
+\input{style.tex}
+\begin{document}
+\begin{screen}
+\ppttitle
+\end{screen}
+\begin{screen}
+\footskip 1.5cm
+\thispagestyle{empty} 
+\pagetitle
+%\newpage
+\pagenumbering{roman}
+\cfoot{\emph{Guru Nank Dev Engineering College, Ludhiana}}
+\rfoot{\thepage}  
+
+
+
+
+%\pagenumbering{arabic}
+%\rfoot{\thepage\ of \pageref{LastPage}}
+
+
+\end{screen}
+\newpage
+\section{Introduction}
+\input{Intro.tex}
+\newpage
+\section{Office Automation}
+\input{Automation.tex}
+
+
+\newpage
+\section{Python}
+\input{python.tex}
+
+\newpage
+\section{Django}
+\input{Django.tex}
+
+\newpage
+\section{Lamp server}
+\input{Lampserver.tex}
+
+
+
+\newpage
+\section{Latex}
+\input{latex.tex}
+
+\newpage
+\input{input.tex}
+
+\newpage
+\input{link.tex}
+
+\newpage
+
+
+\end{document}
+

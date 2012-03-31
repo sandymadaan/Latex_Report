@@ -1,0 +1,49 @@
+\subsection{Polls application}
+\begin{frame}{Polls Application}
+Application will consist of two parts:
+\begin{itemize}
+\item<2-> A public site that lets people view polls and vote in them.
+\item<3-> An admin that lets you add, change and delete polls.
+\end{itemize}
+\end{frame}
+
+\newpage
+\subsection{Script for polls application}
+\begin{frame}{Script for Polls Application}
+\begin{itemize}
+\item<2->django-admin.py startproject mysite
+\item<3->django-admin.py
+\item<4->sudo apt-get install vim
+\item<5->cd mysite
+\item<6->vim settings.py   (edit settings.py)
+\item<7->python manage.py syncdb
+\item<8->python manage.py startapp polls
+\item<9->mkdir /home/sandy/Desktop/mysite/polls/templates
+\item<10->cd polls
+\item<11->vim models.py     (edit models.py)
+\item<12->cd ..
+\item<13->python manage.py sql polls
+\item<14->python manage.py syncdb
+\item<15->python shell.py
+\end{itemize}
+\end{frame}
+\newpage
+\begin{frame}
+\begin{itemize}
+\item<2->vim urls.py       (edit urls.py)
+\item<3->cd polls
+\item<4->vim admin.py      (edit admin.py)
+\item<5->vim urls.py       (edit urls.py within the polls)
+\item<6->vim views.py      (edit view.py)
+\item<7->cd templates
+\item<8->vim index.html    (edit index.html)
+\item<9->vim detail.html   (edit detail.html)
+\item<10->vim results.html  (edit results.html)
+\item<11->cd
+\item<12->cd mysite
+\item<13->python manage.py runserver
+\end{itemize}
+\end{frame}
+
+
+
